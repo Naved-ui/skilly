@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "skilly",
+  "name": "skilly-swap-navedui-2026",
   "main": "src/index.js",
   "compatibility_date": "2026-11-17",
   "assets": {
@@ -12,7 +12,7 @@
     {
       "binding": "DB",
       "database_name": "skilly-db",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "892d6165-2fec-4125-9640-ca63ef98dd22",
       "migrations_dir": "migrations"
     }
   ],
