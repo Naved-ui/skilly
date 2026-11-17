@@ -1,0 +1,15 @@
+{
+  "name": "skilly",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "db:local": "wrangler d1 migrations apply skilly-db --local",
+    "db:remote": "wrangler d1 migrations apply skilly-db --remote",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.163.0"
+  }
+}
